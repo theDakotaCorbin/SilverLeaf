@@ -1,0 +1,261 @@
+html,
+body {
+  margin: 0;
+}
+
+#topContainer {
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+  margin: 0 auto;
+  background-image: url(../img/IMG_3554.jpg);
+  background-size: cover;
+    z-index: 0;
+    
+}
+
+#wall2 {
+   width: 100%;
+  height: 250px;
+  background-attachment: fixed;
+    position: relative;
+  margin: 0 auto;
+  background-image: url(../img/tiledWall.png);
+  background-size: cover; 
+    z-index: 0;
+}
+
+#wall3 {
+   width: 100%;
+  height: 250px;
+  background-attachment: fixed;
+    position: relative;
+  margin: 0 auto;
+  background-image: url(../img/tiledWall.png);
+  background-size: cover; 
+    z-index: 0;
+}
+
+/*
+#topBlank {
+    width: 100vw;
+  height: 100vh; 
+    position: relative;
+    margin: 0 auto;
+    z-index: 1;
+    
+}
+*/
+
+#topLogo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  margin: -250px 0 0 -250px;
+  background-image: url(../img/mainlogo-white.png);
+  background-size: cover;
+    z-index: 0;
+}
+
+#aboutUsContainer {
+  width: 100%;
+  height: 350px;
+  background-color: black;
+  margin: auto;
+  position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    z-index: 1;
+    
+}
+
+.centeredText {
+  width: 700px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -130px 0 0 -350px;
+  text-align: center;
+  color: white;
+  font-family: Oswald;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+.page-content {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  background: #eeeeee;
+  transition: .7s;
+}
+
+.toggle {
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+  -webkit-transition: all 0.1s ease-out 0;
+  -moz-transition: all 0.1s ease-out 0;
+  transition: all 0.1s ease-out 0;
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  z-index: 2;
+  cursor: pointer;
+  transition: .7s;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  left: -180px;
+  -webkit-transition: all 0.1s ease-out 0;
+  -moz-transition: all 0.1s ease-out 0;
+  transition: all 0.1s ease-out 0;
+  width: 120px;
+  padding: 30px;
+  background: #333333;
+  z-index: 1;
+  transition: .7s;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Oswald;
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 18px;
+  -webkit-font-smoothing: antialiased;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  color: white;
+}
+
+#sidebartoggler {
+  display: none;
+}
+
+#sidebartoggler:checked + .page-wrap .sidebar {
+  left: 0px;
+  transition: .7s;
+}
+
+#sidebartoggler:checked + .page-wrap {
+  left: 200px;
+  transition: .7s;
+}
+
+#sidebartoggler:checked + .page-wrap .page-content {
+  padding-left: 120px;
+}
+
+#sidebartoggler:checked + .page-wrap .toggle {
+  left: 200px;
+}
+
+#servicesContainer {
+    width: 100%;
+    height: 1150px;
+    background-color: black;
+    color: white;
+    position: relative;
+    font-family: Oswald;
+    text-align: center;
+    padding-top: 20px;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+.serviceBox {
+    width: 850px;
+    height: 1050px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    font-family: Oswald;
+    font-size: 20px;
+    top: 50%;
+  left: 50%;
+  margin: -525px 0 0 -425px;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+
+
+.services {
+       padding: 10px;
+}
+
+.serviceBtn {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    color: #333333;
+    text-align: center;
+    line-height: 200px;
+}
+
+.serviceBtn:hover {
+       font-size: 22px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    
+}
+
+#clientsContainer {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    position: relative;
+    font-family: Oswald;
+    text-align: center;
+    padding-top: 20px;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #333333;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+    
