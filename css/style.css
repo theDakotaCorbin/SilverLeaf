@@ -8,7 +8,7 @@ body {
   height: 100vh;
   background-attachment: fixed;
   margin: 0 auto;
-  background-image: url(../img/IMG_3554.jpg);
+  background-image: url(../img/tiledWallBlur.png);
   background-size: cover;
     z-index: 0;
     
@@ -127,15 +127,25 @@ body {
   transition: all 0.1s ease-out 0;
   width: 120px;
   padding: 30px;
-  background: #333333;
+  background: black;
   z-index: 1;
   transition: .7s;
+}
+
+
+#sideBarLeaf {
+ width: 80px;
+    height: 80px;
+    background-image: url(../img/sidebarleaf.png);
+    background-size: cover;
+    margin-bottom: 30px;
+     padding: 20px;
 }
 
 .sidebar ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 20px;
 }
 
 .sidebar li {
@@ -218,7 +228,7 @@ body {
     background-color: white;
     color: #333333;
     text-align: center;
-    line-height: 200px;
+    line-height: 210px;
 }
 
 .serviceBtn:hover {
