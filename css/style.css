@@ -62,7 +62,7 @@ body {
 #aboutUsContainer {
   width: 100%;
   height: 350px;
-  background-color: black;
+  background-color: #2e0000;
   margin: auto;
   position: relative;
     display: flex;
@@ -127,7 +127,7 @@ body {
   transition: all 0.1s ease-out 0;
   width: 120px;
   padding: 30px;
-  background: black;
+  background: #2e0000;
   z-index: 1;
   transition: .7s;
 }
@@ -187,7 +187,7 @@ body {
 #servicesContainer {
     width: 100%;
     height: 1150px;
-    background-color: black;
+    background-color: #2e0000;
     color: white;
     position: relative;
     font-family: Oswald;
@@ -242,7 +242,7 @@ body {
 #clientsContainer {
     width: 100%;
     height: 500px;
-    background-color: black;
+    background-color: #2e0000;
     color: white;
     position: relative;
     font-family: Oswald;
@@ -261,6 +261,7 @@ footer {
     position: relative;
     
 }
+
 
 
 
