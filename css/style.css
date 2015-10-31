@@ -160,7 +160,7 @@ body {
   background: #2e0000;
   z-index: 2;
   transition: .7s;
-    box-shadow: 3px 0px 15px black;
+    box-shadow: 3px 0px 30px black;
 }
 
 
@@ -298,10 +298,11 @@ a:active {
     background-color: #333333;
     color: white;
     cursor: pointer;
+    box-shadow: 3px 3px 30px black;
     
 }
 
-.clientsContainer {
+.contactContainer {
     width: 100%;
     height: 500px;
     background-color: #2e0000;
@@ -313,6 +314,59 @@ a:active {
     -webkit-font-smoothing: antialiased;
     box-shadow: 0px 3px 30px black;
     z-index: 2;
+    position: relative;
+    
+}
+
+.contactBox {
+ width: 550px;
+    height: 380px;
+    position: absolute;
+    
+    right: 70px;
+    top: 60px;
+    
+}
+
+.contactFieldInfo {
+   border-radius: 3px; 
+    width: 250px;
+    font-family: Oswald;
+    -webkit-font-smoothing: antialiased;
+    border: none;
+}
+
+.emailContent {
+ height: 150px;
+    width: 300px;
+    border-radius: 5px; 
+    font-family: Oswald;
+    -webkit-font-smoothing: antialiased;
+    border: none;
+}
+
+.sendBtn {
+   width: 125px;
+    background-color: #333333;
+    color: white;
+    border: 1px solid white;
+    font-family: Oswald;
+    -webkit-font-smoothing: antialiased;
+}
+.sendBtn:hover {
+ cursor: pointer;
+}
+
+.mapBox {
+ width: 550px;
+    height: 380px;
+    position: absolute;
+    background-image: url(../img/Screen%20Shot%202015-10-30%20at%2010.29.37%20PM.png);
+    background-size: cover;
+    left: 70px;
+    top: 60px;
+    box-shadow: 5px 5px 20px black;
+    z-index: 4;
     
 }
 
@@ -320,13 +374,119 @@ a:active {
 
 footer {
     width: 100%;
-    height: 300px;
+    height: 200px;
     background-color: #333333;
     position: relative;
     
 }
 
+.footerLogo {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/mainlogo-white.png);
+    background-size: cover;
+    position: absolute;
+    margin: 0 auto;
+    top: 25px;
+    right: 50px;
+}
 
+.addressBox {
+ width: 250px;
+    height: 80px;
+    position: absolute;
+    top: 65px;
+    left: 50px;
+    margin: 0 auto;
+    font-family: Oswald;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    
+    
+    
+}
+
+#terms {
+    position: absolute;
+    bottom: 12px;
+    right: 85px;
+    font-family: Oswald;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    font-size: 12px;
+    
+}
+
+#terms:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.socialContainer {
+ width: 300px;
+    height: 40px;
+    position: absolute;
+    margin: -20px 0 0 -150px;
+    top: 50%;
+    left: 50%;
+    
+}
+
+#fbIcon {
+    width: 46px;
+    height: 45px;
+    background-image: url(../img/facebook-icon.png);
+    background-size: cover;
+    float: left;
+    margin: 10px;
+}
+
+#twitterIcon {
+    width: 46px;
+    height: 40px;
+    background-image: url(../img/twitter-bird.png);
+    background-size: cover;
+    float: left;
+    margin: 10px;
+}
+
+#instagramIcon {
+    width: 46px;
+    height: 45px;
+    background-image: url(../img/ig-icon.png);
+    background-size: cover;
+    float: left;
+    margin: 10px;
+}
+
+#pinterestIcon {
+    width: 46px;
+    height: 45px;
+    background-image: url(../img/pintrest-icon.png);
+    background-size: cover;
+    float: left;
+    margin: 10px;
+}
+
+#fbIcon:hover {
+    cursor: pointer;
+}
+
+
+
+#twitterIcon:hover {
+ cursor: pointer;
+}
+
+
+#instagramIcon:hover {
+ cursor: pointer;
+}
+
+
+#pinterestIcon:hover {
+ cursor: pointer;
+}
 
 
 
