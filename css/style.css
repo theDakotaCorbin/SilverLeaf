@@ -2,7 +2,6 @@ html,
 body {
   margin: 0;
 }
-
 /*
 #topContainer {
   width: 100vw;
@@ -15,7 +14,6 @@ body {
     
 }
 */
-
 /*
 .videoBG {
     width: 100vw;
@@ -28,41 +26,37 @@ body {
 */
 
 #top {
-    width: 100vw;
+  width: 100vw;
   height: 100vh;
-  background-attachment:fixed;
+  background-attachment: fixed;
   margin: 0 auto;
   z-index: 1;
-    position: relative;
-    background-image: url(../img/tiledWallBlur.png);
-    background-size: cover;
-
+  position: relative;
+  background-image: url(../img/tiledWallBlur.png);
+  background-size: cover;
 }
 
-
-
 #wall2 {
-   width: 100%;
+  width: 100%;
   height: 250px;
   background-attachment: fixed;
-    position: relative;
+  position: relative;
   margin: 0 auto;
   background-image: url(../img/tiledWall.png);
-  background-size: cover; 
-    z-index: 1;
+  background-size: cover;
+  z-index: 1;
 }
 
 #wall3 {
-   width: 100%;
+  width: 100%;
   height: 250px;
   background-attachment: fixed;
-    position: relative;
+  position: relative;
   margin: 0 auto;
   background-image: url(../img/tiledWall.png);
-  background-size: cover; 
-    z-index: 1;
+  background-size: cover;
+  z-index: 1;
 }
-
 /*
 #topBlank {
     width: 100vw;
@@ -75,7 +69,7 @@ body {
 */
 
 #topLogo {
-  position:absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   width: 500px;
@@ -83,9 +77,8 @@ body {
   margin: -250px 0 0 -250px;
   background-image: url(../img/mainlogo-white.png);
   background-size: cover;
-    z-index: 100;
+  z-index: 100;
 }
-
 
 .aboutUsContainer {
   width: 100%;
@@ -93,15 +86,14 @@ body {
   background-color: #2e0000;
   margin: auto;
   position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-    z-index: 3;
-    box-shadow: 0px 3px 30px black;
-    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  z-index: 3;
+  box-shadow: 0px 3px 30px black;
 }
 
 .centeredText {
@@ -114,10 +106,8 @@ body {
   text-align: center;
   color: white;
   font-family: Oswald;
-    -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
-
-
 
 .page-content {
   width: 100%;
@@ -156,56 +146,55 @@ body {
   transition: all 0.1s ease-out 0;
   width: 120px;
   padding: 30px;
-    border-right: 1px solid white;
+  border-right: 1px solid white;
   background: #2e0000;
   z-index: 2;
   transition: .7s;
-    box-shadow: 3px 0px 30px black;
+  box-shadow: 3px 0px 30px black;
 }
 
-
 #sideBarLeaf {
- width: 80px;
-    height: 80px;
-    background-image: url(../img/sidebarleaf.png);
-    background-size: cover;
-    margin-bottom: 30px;
-     padding: 20px;
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/sidebarleaf.png);
+  background-size: cover;
+  margin-bottom: 30px;
+  padding: 20px;
 }
 
 .sidebar ul {
   list-style: none;
   margin: 0;
   padding: 20px;
-    text-decoration: none;
+  text-decoration: none;
 }
-
 /* unvisited link */
+
 a:link {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
 }
-
 /* visited link */
+
 a:visited {
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
 }
-
 /* mouse over link */
-a:hover {
-    color: white;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
-}
 
+a:hover {
+  color: white;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+}
 /* selected link */
+
 a:active {
-    color: white;
-    text-decoration: none;
-    -webkit-font-smoothing: antialiased;
+  color: white;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
 }
 
 .sidebar li {
@@ -245,247 +234,244 @@ a:active {
 }
 
 .servicesContainer {
-    width: 100%;
-    height: 1150px;
-    background-color: #2e0000;
-    color: white;
-    position: relative;
-    font-family: Oswald;
-    text-align: center;
-    padding-top: 20px;
-    -webkit-font-smoothing: antialiased;
-    box-shadow: 0px 3px 30px black;
-    z-index: 3;
-    
+  width: 100%;
+  height: 1150px;
+  background-color: #2e0000;
+  color: white;
+  position: relative;
+  font-family: Oswald;
+  text-align: center;
+  padding-top: 20px;
+  -webkit-font-smoothing: antialiased;
+  box-shadow: 0px 3px 30px black;
+  z-index: 3;
 }
 
 .serviceBox {
-    width: 850px;
-    height: 1050px;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-    font-family: Oswald;
-    font-size: 20px;
-    top: 50%;
+  width: 850px;
+  height: 1050px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  font-family: Oswald;
+  font-size: 20px;
+  top: 50%;
   left: 50%;
   margin: -525px 0 0 -425px;
-    -webkit-font-smoothing: antialiased;
-    
+  -webkit-font-smoothing: antialiased;
 }
 
-
-
 .services {
-       padding: 10px;
+  padding: 10px;
 }
 
 .serviceBtn {
-    width: 250px;
-    height: 250px;
-    background-color: white;
-    color: #333333;
-    text-align: center;
-    line-height: 210px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  color: #333333;
+  text-align: center;
+  line-height: 210px;
 }
 
 .serviceBtn:hover {
-       font-size: 22px;
-    background-color: #333333;
-    color: white;
-    cursor: pointer;
-    box-shadow: 3px 3px 30px black;
-    
+  font-size: 22px;
+  background-color: #333333;
+  color: white;
+  cursor: pointer;
+  box-shadow: 3px 3px 30px black;
+}
+
+.serviceLink {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  color: #333333;
+  text-align: center;
+  line-height: 210px;
+}
+
+.serviceLink:hover {
+  font-size: 22px;
+  background-color: #333333;
+  color: white;
+  cursor: pointer;
+  box-shadow: 3px 3px 30px black;
 }
 
 .contactContainer {
-    width: 100%;
-    height: 500px;
-    background-color: #2e0000;
-    color: white;
-    position: relative;
-    font-family: Oswald;
-    text-align: center;
-    padding-top: 20px;
-    -webkit-font-smoothing: antialiased;
-    box-shadow: 0px 3px 30px black;
-    z-index: 2;
-    position: relative;
-    
+  width: 100%;
+  height: 500px;
+  background-color: #2e0000;
+  color: white;
+  position: relative;
+  font-family: Oswald;
+  text-align: center;
+  padding-top: 20px;
+  -webkit-font-smoothing: antialiased;
+  box-shadow: 0px 3px 30px black;
+  z-index: 2;
+  position: relative;
 }
 
 .contactBox {
- width: 550px;
-    height: 380px;
-    position: absolute;
-    
-    right: 70px;
-    top: 60px;
-    
+  width: 550px;
+  height: 380px;
+  position: absolute;
+  right: 70px;
+  top: 60px;
 }
 
 .contactFieldInfo {
-   border-radius: 3px; 
-    width: 250px;
-    font-family: Oswald;
-    -webkit-font-smoothing: antialiased;
-    border: none;
+  border-radius: 3px;
+  width: 230px;
+  font-family: Oswald;
+  -webkit-font-smoothing: antialiased;
+  border: none;
 }
 
 .emailContent {
- height: 150px;
-    width: 300px;
-    border-radius: 5px; 
-    font-family: Oswald;
-    -webkit-font-smoothing: antialiased;
-    border: none;
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+  font-family: Oswald;
+  -webkit-font-smoothing: antialiased;
+  border: none;
 }
 
 .sendBtn {
-   width: 125px;
-    background-color: #333333;
-    color: white;
-    border: 1px solid white;
-    font-family: Oswald;
-    -webkit-font-smoothing: antialiased;
+  width: 125px;
+  background-color: #333333;
+  color: white;
+  border: 1px solid white;
+  font-family: Oswald;
+  -webkit-font-smoothing: antialiased;
 }
+
 .sendBtn:hover {
- cursor: pointer;
+  cursor: pointer;
 }
 
 .mapBox {
- width: 550px;
-    height: 380px;
-    position: absolute;
-    background-image: url(../img/Screen%20Shot%202015-10-30%20at%2010.29.37%20PM.png);
-    background-size: cover;
-    left: 70px;
-    top: 60px;
-    box-shadow: 5px 5px 20px black;
-    z-index: 4;
-    
+  width: 550px;
+  height: 380px;
+  position: absolute;
+  background-image: url(../img/Screen%20Shot%202015-10-30%20at%2010.29.37%20PM.png);
+  background-size: cover;
+  left: 70px;
+  top: 60px;
+  box-shadow: 5px 5px 20px black;
+  z-index: 4;
 }
 
-
-
 footer {
-    width: 100%;
-    height: 200px;
-    background-color: #333333;
-    position: relative;
-    
+  width: 100%;
+  height: 200px;
+  background-color: #333333;
+  position: relative;
 }
 
 .footerLogo {
-    width: 150px;
-    height: 150px;
-    background-image: url(../img/mainlogo-white.png);
-    background-size: cover;
-    position: absolute;
-    margin: 0 auto;
-    top: 25px;
-    right: 50px;
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/mainlogo-white.png);
+  background-size: cover;
+  position: absolute;
+  margin: 0 auto;
+  top: 25px;
+  right: 50px;
 }
 
 .addressBox {
- width: 250px;
-    height: 80px;
-    position: absolute;
-    top: 65px;
-    left: 50px;
-    margin: 0 auto;
-    font-family: Oswald;
-    -webkit-font-smoothing: antialiased;
-    color: white;
-    
-    
-    
+  width: 250px;
+  height: 80px;
+  position: absolute;
+  top: 65px;
+  left: 50px;
+  margin: 0 auto;
+  font-family: Oswald;
+  -webkit-font-smoothing: antialiased;
+  color: white;
 }
 
 #terms {
-    position: absolute;
-    bottom: 12px;
-    right: 85px;
-    font-family: Oswald;
-    -webkit-font-smoothing: antialiased;
-    color: white;
-    font-size: 12px;
-    
+  position: absolute;
+  bottom: 12px;
+  right: 85px;
+  font-family: Oswald;
+  -webkit-font-smoothing: antialiased;
+  color: white;
+  font-size: 12px;
 }
 
 #terms:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .socialContainer {
- width: 300px;
-    height: 40px;
-    position: absolute;
-    margin: -20px 0 0 -150px;
-    top: 50%;
-    left: 50%;
-    
+  width: 300px;
+  height: 40px;
+  position: absolute;
+  margin: -20px 0 0 -150px;
+  top: 50%;
+  left: 50%;
 }
 
 #fbIcon {
-    width: 46px;
-    height: 45px;
-    background-image: url(../img/facebook-icon.png);
-    background-size: cover;
-    float: left;
-    margin: 10px;
+  width: 46px;
+  height: 45px;
+  background-image: url(../img/facebook-icon.png);
+  background-size: cover;
+  float: left;
+  margin: 10px;
 }
 
 #twitterIcon {
-    width: 46px;
-    height: 40px;
-    background-image: url(../img/twitter-bird.png);
-    background-size: cover;
-    float: left;
-    margin: 10px;
+  width: 46px;
+  height: 40px;
+  background-image: url(../img/twitter-bird.png);
+  background-size: cover;
+  float: left;
+  margin: 10px;
 }
 
 #instagramIcon {
-    width: 46px;
-    height: 45px;
-    background-image: url(../img/ig-icon.png);
-    background-size: cover;
-    float: left;
-    margin: 10px;
+  width: 46px;
+  height: 45px;
+  background-image: url(../img/ig-icon.png);
+  background-size: cover;
+  float: left;
+  margin: 10px;
 }
 
 #pinterestIcon {
-    width: 46px;
-    height: 45px;
-    background-image: url(../img/pintrest-icon.png);
-    background-size: cover;
-    float: left;
-    margin: 10px;
+  width: 46px;
+  height: 45px;
+  background-image: url(../img/pintrest-icon.png);
+  background-size: cover;
+  float: left;
+  margin: 10px;
 }
 
 #fbIcon:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
-
-
 
 #twitterIcon:hover {
- cursor: pointer;
+  cursor: pointer;
 }
-
 
 #instagramIcon:hover {
- cursor: pointer;
+  cursor: pointer;
 }
-
 
 #pinterestIcon:hover {
- cursor: pointer;
+  cursor: pointer;
 }
 
 
@@ -493,4 +479,49 @@ footer {
 
 
 
+/*COLOR COPIES VIEW*/
+
+.ccPageWrap {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2e0000;
+  color: white;
+  font-family: Oswald;
+  -webkit-font-smoothing: antialiased;
+    z-index: 0;
+    position: relative;
     
+    margin: 0 auto;
+}
+
+.ccLogo {
+  width: 150px;
+  height: 150px;
+  background-image: url(../img/mainlogo-white.png);
+  background-size: cover;
+    left: 20px;
+    position: absolute;
+}
+
+.ccLogo:hover {
+  cursor: pointer;
+    width: 155px;
+  height: 155px;
+    background-size: cover;
+}
+
+.ccWhiteBox {
+ width: 80%;
+    height: 88%;
+    background-color: white;
+    position: absolute;
+    margin: 0 auto;
+    right: 40px;
+    top: 40px;
+    box-shadow: 3px 3px 30px black;
+    font-family: Oswald;
+  -webkit-font-smoothing: antialiased;
+    color: #333333;
+    padding-left: 20px;
+    
+}
