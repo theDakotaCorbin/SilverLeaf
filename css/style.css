@@ -501,6 +501,7 @@ footer {
   background-size: cover;
     left: 20px;
     position: absolute;
+    z-index: 1;
 }
 
 .ccLogo:hover {
@@ -523,9 +524,30 @@ footer {
   -webkit-font-smoothing: antialiased;
     color: #333333;
     padding-left: 20px;
+    z-index: 1;
+    
     
 }
 
-ui-view {
- z-index: 1000;   
+.imagePreviewBox {
+    width: 400px;
+    height: 250px;
+    background-color: gray;
+    border: 5px solid #333333;
+    z-index: 2;
+
 }
+
+.orderForm {
+    width: 500px;
+    height: 80%;
+    border-left: 2px solid #333333;
+    right: 30px;
+    top: 35px;
+    z-index: 2;
+    position: absolute;
+    padding: 30px;
+    
+
+}
+
