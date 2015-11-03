@@ -74,11 +74,12 @@ angular.module('silverLeafApp', ['ui.router'])
         controller: 'postersbannersCtrl'
         
     })
-    
-    
+ 
+    $urlRouterProvider.otherwise('/home');
     
     
 });
+
 
 
 

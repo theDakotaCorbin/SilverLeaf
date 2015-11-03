@@ -525,3 +525,7 @@ footer {
     padding-left: 20px;
     
 }
+
+ui-view {
+ z-index: 1000;   
+}
